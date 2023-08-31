@@ -1,0 +1,39 @@
+.mainbanner {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+.banner1 {
+  display: flex;
+  padding: .8rem 0 .8rem 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 1rem;
+  background-color: #c2c2af;
+  color: #333;
+  font-size: 14px;
+  line-height: 0;
+}
+.banner1 a {
+  margin-left: 0.7rem;
+  color: #333;
+  font-size: 15px;
+  text-decoration: none;
+}
+.banner1 a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+.banner2 {
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+  color: white;
+  padding: 0.5rem 0 0.5rem 0;
+  font-size: 15px;
+  line-height: 0;
+}
