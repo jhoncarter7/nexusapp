@@ -16,8 +16,9 @@
   background-color: #c2c2af;
   color: #333;
   font-size: 14px;
-  line-height: 0;
+  /* line-height: 0; */
 }
+
 .banner1 a {
   margin-left: 0.7rem;
   color: #333;
@@ -35,5 +36,8 @@
   color: white;
   padding: 0.5rem 0 0.5rem 0;
   font-size: 15px;
-  line-height: 0;
+  /* line-height: 0; */
+}
+.banner2 p {
+  margin: 0;
 }

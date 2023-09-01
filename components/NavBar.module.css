@@ -1,0 +1,33 @@
+.mainNav{
+    display: flex;
+  width: 100%;
+    align-items: center;
+    background-color: #fffef2;
+    padding: 2rem 0 2rem 0;
+    border-bottom: 1px solid transparent;
+   
+}
+
+.subNavbig{
+    width: 80%;
+    opacity: 1;
+    padding-right: 6rem;
+}
+
+.firstNav{
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+
+.subNavsmall{
+    width: 20%;
+    padding: 0 1rem 0 3rem;
+}
+.firstNav li{
+    list-style: none;
+   
+}
