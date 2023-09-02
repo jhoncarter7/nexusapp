@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./banner.module.css";
 import { Gallery } from "@/components/billbord/gallery";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import Button from "@mui/material/Button";
+
 
 
 const BillBord = () => {
@@ -18,9 +18,10 @@ const BillBord = () => {
             Refresh—three additions to the range, each imparting a unique
             constellation of benefits. 
           </p>
-          <Button variant="contained" endIcon={<ArrowForwardIcon />}>
-            Send
-          </Button>
+         <button className={styles.button}>
+          Discover Bar Soap
+          <ArrowForwardIcon />
+         </button>
         </div>
       </div>
     </div>

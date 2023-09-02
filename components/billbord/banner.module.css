@@ -1,40 +1,52 @@
-.mainBanner{
-   
-        background-image: url('https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
-        background-size: cover;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      position: relative;
+.mainBanner {
+  background-image: url("https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.subBanner{
-    height: 100vh;
-    display: flex;
-    z-index: 1000;
+.subBanner {
+  height: 100vh;
+  display: flex;
+  z-index: 1000;
 }
-.subtext{
-    width: 30%;
-    margin-left: 7rem;
-    margin-top: 7rem;
-    display: flex;
-    flex-direction: column;
+.subtext {
+  width: 30%;
+  margin-left: 7rem;
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
 }
-.mainText{
-    margin-top: 7.4rem;
+.subtext h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.mainText {
+  margin-top: 7.4rem;
   margin-left: 3rem;
 }
-.button{
-    background-color: #fff;
-    background: none;
-    color: #000;
-    border: 1px solid #fff;
-height: 10px;
-  
-    flex: 1 1 auto;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    
+.button {
+  display: flex;
+  margin-top: 2rem;
+  width: 20vw;
+  height: 3rem;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all .8s ease-out;   
 }
