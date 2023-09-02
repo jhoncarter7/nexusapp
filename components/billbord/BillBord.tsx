@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./banner.module.css";
-import { Gallery } from "@/components/billbord/gallery";
+
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 

@@ -1,7 +1,0 @@
- {Gallery.map((item, index) => {
-                return (
-                    <div key={index}>
-                        <Image src={item.imageUrl} alt={item.title} layout="fill" objectFit="fill"/>
-                    </div>
-                )
-            })}
