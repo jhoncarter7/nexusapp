@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Gallery } from "../firstSlider/gallery";
 import styles from "./slider.module.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";

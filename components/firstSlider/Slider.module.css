@@ -1,52 +1,48 @@
-.mainContainer{
-
-    height: 93vh;
-    margin-top: 3rem;
-    text-align: center;
-    width: 100%;
-    position: relative;
-    transform: translate();
+.mainContainer {
+  height: 93vh;
+  margin-top: 3rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
 }
-.mainSlider{
+.mainSlider {
   display: grid;
-  grid-template-columns: repeat(6,auto);
+  grid-template-columns: repeat(6, auto);
   margin-bottom: 10rem;
   overflow-x: auto;
   text-align: center;
   grid-column-gap: 2.5rem;
   padding-left: 9rem;
-padding-bottom: 1.4rem;
-height: 77vh;
-align-items: end;
-scroll-behavior: smooth;
-
+  padding-bottom: 1.4rem;
+  height: 77vh;
+  align-items: end;
+  scroll-behavior: smooth;
 }
 .mainSlider::-webkit-scrollbar {
-    width: 1px;
-    height: 4px;
-    scroll-behavior: smooth;
-  }
-   
-  .mainSlider::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    scroll-behavior: smooth;
-  }
-   
-  .mainSlider::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    scroll-behavior: smooth;
-    /* outline: 1px solid slategrey; */
-  }
-.subtext{
+  width: 1px;
+  height: 4px;
+  scroll-behavior: smooth;
+}
+
+.mainSlider::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  scroll-behavior: smooth;
+}
+
+.mainSlider::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  scroll-behavior: smooth;
+  /* outline: 1px solid slategrey; */
+}
+.subtext {
   width: 31vw;
   text-align: initial;
   align-self: baseline;
- color: #636363;
+  color: #636363;
 }
-.sliderimg img{
+.sliderimg img {
   height: 200px;
   margin-right: 10px;
-  
 }
 .btn {
   display: flex;
@@ -91,14 +87,14 @@ scroll-behavior: smooth;
   opacity: 1;
 } */
 
-.arrowbtn{
+.arrowbtn {
   background-color: #00000063;
   width: 8rem;
   height: 5rem;
   position: relative;
   top: 40%;
   opacity: 0;
-  transition: all .6s ease-out;
+  transition: all 0.6s ease-out;
 }
 .arrow {
   position: absolute;
@@ -107,7 +103,7 @@ scroll-behavior: smooth;
   transform: translate(-50%, -50%);
   transform: rotate(90deg);
   cursor: pointer;
-  transition: all .6s ease-out;
+  transition: all 0.6s ease-out;
 }
 
 .arrow span {
@@ -121,8 +117,6 @@ scroll-behavior: smooth;
   animation: animate 2s infinite;
 }
 
-
-
 .arrow span:nth-child(2) {
   animation-delay: -0.2s;
 }
@@ -133,19 +127,19 @@ scroll-behavior: smooth;
 
 @keyframes animate {
   0% {
-      opacity: 0;
-      transform: rotate(45deg) translate(-20px, -20px);
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   100% {
-      opacity: 0;
-      transform: rotate(45deg) translate(20px, 20px);
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
   }
 }
 
-.arrowbtn2{
+.arrowbtn2 {
   background-color: #00000063;
   width: 8rem;
   height: 5rem;
@@ -153,7 +147,7 @@ scroll-behavior: smooth;
   left: 90.5%;
   bottom: 86.2%;
   opacity: 0;
-  transition: all .6s ease-out;
+  transition: all 0.6s ease-out;
 }
 .arrow2 {
   position: absolute;
@@ -162,7 +156,7 @@ scroll-behavior: smooth;
   transform: translate(-50%, -50%);
   transform: rotate(270deg);
   cursor: pointer;
-  transition: all .6s ease-out;
+  transition: all 0.6s ease-out;
 }
 
 .arrow2 span {
@@ -176,8 +170,6 @@ scroll-behavior: smooth;
   animation: animate 2s infinite;
 }
 
-
-
 .arrow2 span:nth-child(2) {
   animation-delay: -0.2s;
 }
@@ -185,26 +177,11 @@ scroll-behavior: smooth;
 .arrow2 span:nth-child(3) {
   animation-delay: -0.4s;
 }
-/* 
-@keyframes animate {
-  0% {
-      opacity: 0;
-      transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-      opacity: 1;
-  }
-  100% {
-      opacity: 0;
-      transform: rotate(45deg) translate(20px, 20px);
-  }
-} */
 
-.mainContainer:hover  .arrowbtn{
+
+.mainContainer:hover .arrowbtn {
   opacity: 1;
-
 }
-.mainContainer:hover .arrowbtn2{
+.mainContainer:hover .arrowbtn2 {
   opacity: 1;
-
 }

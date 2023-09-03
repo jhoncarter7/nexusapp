@@ -6,6 +6,8 @@ import BillBord from '@/components/billbord/BillBord'
 import Slider from '@/components/firstSlider/Slider'
 import WarmUp from '@/components/warmup/WarmUp'
 import SkinProduct from '@/components/skinproduct/SkinProduct'
+import PostPoo from '@/components/warmup/PostPoo'
+import StoreLoc from '@/components/storelocator/StoreLoc'
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -15,6 +17,9 @@ export default function Home() {
     <Slider/>
     <WarmUp/>
     <SkinProduct/>
+    <PostPoo/>
+    <SkinProduct/>
+    <StoreLoc/>
     </main>
   )
 }
