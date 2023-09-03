@@ -9,12 +9,13 @@
 }
 .mainSlider{
   display: grid;
-  grid-template-columns: repeat(6,auto);
+  grid-template-columns: repeat(7,auto);
   margin-bottom: 10rem;
   overflow-x: auto;
   text-align: center;
-  grid-column-gap: 2.5rem;
+  grid-column-gap: 3rem;
   padding-left: 9rem;
+  padding-right: 5rem;
 padding-bottom: 1.4rem;
 height: 77vh;
 align-items: end;
@@ -39,12 +40,14 @@ scroll-behavior: smooth;
   }
 .subtext{
   width: 31vw;
+  padding-top: 3.4rem;
   text-align: initial;
   align-self: baseline;
  color: #636363;
 }
 .sliderimg img{
-  height: 200px;
+  height: 53vh;
+  width: 397px;
   margin-right: 10px;
   
 }

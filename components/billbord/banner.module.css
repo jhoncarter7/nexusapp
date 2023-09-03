@@ -45,11 +45,6 @@
   align-items: center;
   transition: all 0.14s;
 }
-/* .button:hover {
-  background-color: #fff;
-  color: #000;
-  transition: all .8s ease-out;   
-} */
 
 .btn:hover {
   outline: none;
@@ -58,15 +53,4 @@
   background-color: #fff;
   color: #777;
 }
-/* .btn:hover::after,
-.btn:focus::after {
-  transform: scaleX(1.2) scaleY(1.6);
-  opacity: 0;
-  
-}
-.btnwhite {
- 
-}
-.btnwhite::after {
-  background-color: #fff;
-} */
+

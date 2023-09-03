@@ -1,10 +1,10 @@
 import React, { useRef, useState } from "react";
-import { Gallery } from "../firstSlider/gallery";
-import styles from "./slider.module.css";
+import { skinproductimage } from "../firstSlider/gallery";
+import styles from "./SkinProduct.module.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-const Slider = () => {
-  const sliderRef =  useRef<HTMLDivElement>(null);
+const SkinProduct = () => {
+  const sliderRef = useRef<HTMLDivElement>(null);
 
   const handleNextClick = () => {
     if (sliderRef.current) {
@@ -20,14 +20,14 @@ const Slider = () => {
   return (
     <section className={styles.mainContainer}>
       <div className={styles.arrowbtn} onClick={handlePreviousClick}>
-      <div className={styles.arrow} >
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+        <div className={styles.arrow}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-      
-      <div className={styles.mainSlider} ref={sliderRef} >
+
+      <div className={styles.mainSlider} ref={sliderRef}>
         <div className={styles.subtext}>
           <p>For the body</p>
           <h2>An expression of care </h2>
@@ -41,24 +41,25 @@ const Slider = () => {
             <ArrowForwardIcon />
           </button>
         </div>
-        {Gallery.map((item, index) => {
+        {skinproductimage.map((item, index) => {
           return (
             <div className={styles.sliderimg} key={index}>
               <img src={item.imageUrl} alt={item.title} />
+              <a href="#" style={{color: "#333"}}>{item.title}</a>
+              <p>{item.details}</p>
             </div>
           );
         })}
-         
       </div>
       <div className={styles.arrowbtn2} onClick={handleNextClick}>
-      <div className={styles.arrow2} >
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+        <div className={styles.arrow2}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </section>
   );
 };
 
-export default Slider;
+export default SkinProduct;

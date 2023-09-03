@@ -19,4 +19,44 @@ export  const Gallery = [
         id: 4,
         title: "image"
     }
+
+]
+
+export const skinproductimage = [
+    {
+    imageUrl: 'https://images.unsplash.com/photo-1620756236308-65c3ef5d25f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    id: 1,
+    title: 'Lucent Facial Concentrate',
+    details: "A botanical bathroom deodoriser"
+},
+    {
+    imageUrl: 'https://plus.unsplash.com/premium_photo-1661573161359-5039424a8c17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
+    id: 2,
+    title: 'Post-Poo Drops',
+    details: "A botanical bathroom deodoriser"
+},
+    {
+    imageUrl: 'https://images.unsplash.com/photo-1620756236308-65c3ef5d25f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    id: 3,
+    title: 'Post-Poo Drops',
+    details: "A botanical bathroom deodoriser"
+},
+    {
+    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
+    id: 4,
+    title: 'Post-Poo Drops',
+    details: "A botanical bathroom deodoriser"
+},
+    {
+    imageUrl: 'https://plus.unsplash.com/premium_photo-1661573161359-5039424a8c17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
+    id: 5,
+    title: 'Post-Poo Drops',
+    details: "A botanical bathroom deodoriser"
+},
+    {
+    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80',
+    id: 6,
+    title: 'Post-Poo Drops',
+    details: "A botanical bathroom deodoriser"
+},
 ]

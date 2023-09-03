@@ -4,6 +4,8 @@ import styles from './page.module.css'
 import NavBar from '@/components/NavBar'
 import BillBord from '@/components/billbord/BillBord'
 import Slider from '@/components/firstSlider/Slider'
+import WarmUp from '@/components/warmup/WarmUp'
+import SkinProduct from '@/components/skinproduct/SkinProduct'
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -11,6 +13,8 @@ export default function Home() {
     <NavBar/>
     <BillBord/>
     <Slider/>
+    <WarmUp/>
+    <SkinProduct/>
     </main>
   )
 }

@@ -1,0 +1,63 @@
+.mainBanner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 3rem;
+  }
+ 
+  .subBanner {
+    flex: 0 1 36%;
+    height: 100vh;
+    display: flex;
+    z-index: 1000;
+  }
+  .subtext {
+    width: 100%;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+ 
+  }
+  .subtext h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .mainText {
+    margin-top: 7.4rem;
+    margin-left: 3rem;
+  }
+  .btn {
+    display: flex;
+    margin-top: 2rem;
+    width: 20vw;
+    height: 3rem;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.14s;
+  }
+  
+  .btn:hover {
+    outline: none;
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(56, 23, 23, 0.455);
+    background-color: #fff;
+    color: #777;
+  }
+  
+  .mainBanner img{
+    flex: 0 1 50%;
+
+  }
