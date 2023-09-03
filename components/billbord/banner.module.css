@@ -31,7 +31,7 @@
   margin-top: 7.4rem;
   margin-left: 3rem;
 }
-.button {
+.btn {
   display: flex;
   margin-top: 2rem;
   width: 20vw;
@@ -43,10 +43,30 @@
   cursor: pointer;
   justify-content: space-around;
   align-items: center;
- 
+  transition: all 0.14s;
 }
-.button:hover {
+/* .button:hover {
   background-color: #fff;
   color: #000;
   transition: all .8s ease-out;   
+} */
+
+.btn:hover {
+  outline: none;
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(56, 23, 23, 0.455);
+  background-color: #fff;
+  color: #777;
 }
+/* .btn:hover::after,
+.btn:focus::after {
+  transform: scaleX(1.2) scaleY(1.6);
+  opacity: 0;
+  
+}
+.btnwhite {
+ 
+}
+.btnwhite::after {
+  background-color: #fff;
+} */

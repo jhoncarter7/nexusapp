@@ -18,7 +18,7 @@ const BillBord = () => {
             Refresh—three additions to the range, each imparting a unique
             constellation of benefits. 
           </p>
-         <button className={styles.button}>
+         <button className={styles.btn}>
           Discover Bar Soap
           <ArrowForwardIcon />
          </button>
